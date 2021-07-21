@@ -1,0 +1,375 @@
+@keyframes seta{
+	0%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(-20px);
+	}
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+header #menu-flex{
+	display: flex;
+	padding: 20px 40px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+#sec-introduction h1{
+	text-transform: uppercase;
+	font-size: 60px;
+	padding-left: 26px;
+}
+
+#sec-introduction p{
+	line-height: 30px;
+	padding-left: 26px;
+}
+
+#seta{
+	font-size: 70px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: 90%;
+	text-align: center;
+	transition: all 0.5s;
+	animation: seta 0.7s infinite alternate;
+}
+
+#sec-introduction span{
+	color: #0898DB;
+}
+
+#home{
+	color: #6F6F6F;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+#contact-direct-mobile{
+	display: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+#sec-contact{
+	background-color: #0D6EFD;
+	padding-bottom: 50px;
+	margin-bottom:50px;
+}
+#sec-contact h5{
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding:50px 0 0 0;
+}
+
+footer p{
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+footer img{
+	margin-bottom:10px;
+}
+
+
+
+
+
+@media screen and (max-width: 800px){
+	#contact-direct{
+		display: none;
+	}
+
+	#seta{
+		display: none;
+	}
+
+	#sec-about h2{
+		margin-top: 30px;
+		margin-bottom:30px;
+	}
+
+
+
+	#sec-about #unidades h2{
+		font-size: 40px;
+		text-align: center;
+	}
+
+
+
+	#main #sec-about  {
+		padding:20px 10px;
+	}
+
+	#contact-direct-mobile{
+		padding: 10px 15px;
+		display: block;
+	}
+
+	#main #sec-about #unidades .row div{
+		margin:0;
+	}
+
+	#main #sec-services .row .col-md-4 div h4{
+		font-size: 25px;
+	}
+
+	#sec-about img{
+		margin-top: 20px;
+	}
+	
+	#sec-introduction h1{
+		font-size: 40px;
+		margin-top: 20px;
+	}
+
+	#sec-introduction button{
+		margin-bottom:30px;
+	}
+	
+
+	#menu-flex nav{
+		display: none;
+	}
+	
+}
+
+
+#menu-flex label, input{
+	display: none;
+}
+#sec-contact label{
+	transition:all 0.3s;
+}
+
+#form-settings i{
+	color: white; 
+	font-size: 30px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+#form-settings a{
+	color:#153729;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#sec-contact #form-settings p{
+	margin-bottom: 10px;
+}
+
+#sec-contact #form-settings button{
+	text-transform: uppercase;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	background-color: #0898DB;
+	transition: all 0.5s;
+	border-radius: 5px;
+}
+
+#sec-contact #form-settings #error{
+	color: red;
+}
+
+#sec-contact #form-settings button:hover{
+	background-color: white;
+	color: #0898DB;
+	
+}
+
+#sec-contact p{
+	padding:0;
+	font-size: 18px;
+	margin-bottom:30px;
+}
+
+nav ul li a{
+	display: block;
+	padding: 5px 15px;
+	color: #b5b5b5;
+	transition: all 0.5s;
+	font-size: 17px;
+}
+
+#contact-direct{
+	padding: 5px 40px;
+	color: white;
+}
+
+#tel, #tel-whatssap{
+	color: white;
+	font-weight: bolder;
+}
+
+nav ul li a:hover{
+	
+	color: #6F6F6F;
+}
+
+#dotor_homem{
+	position: relative;
+	background-image: url(../imagens/efeito.svg);
+	background-repeat: repeat-y;
+	background-position:right;
+}
+
+#start{
+	text-transform: uppercase;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	background-color: #0D6EFD;
+	transition: all 0.5s;
+	border-radius: 5px;
+	margin-left: 26px;
+}
+
+#start:hover{
+	background-color: white;
+	color: #0D6EFD;
+}
+
+
+#sec-about{
+	background-color: #0D6EFD;
+	padding: 15px 40px;
+}
+
+#sec-about h2{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+
+#unidades{
+	margin-top: 100px;
+}
+
+#unidades h2{
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+
+#sec-about p{
+	line-height: 27px;
+	color: #C6ECFA;
+	font-size: 18px;
+}
+
+#sec-about #unidades p{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bolder;
+	font-size: 30px;
+	letter-spacing: 3px;
+	margin-bottom: 0;
+}
+
+#sec-about #unidades .row div{
+	text-align: center;
+	
+	height: 200px;
+	margin: 10px;
+	flex-direction: column;
+}
+
+#sec-about #unidades .row div i{
+	font-size: 40px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+#sec-services{
+	margin-top: 80px;
+	padding: 10px 40px;
+	margin-bottom:80px;
+}
+
+#sec-services h3{
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 30px;
+	margin-bottom: 80px;
+}
+
+#sec-services .row .col-md-4 div{
+	border: 1px solid #0D6EFD;
+	height: 400px;
+	border-radius: 5px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	position: relative;
+	margin-bottom:20px;
+	background-color: #0D6EFD;
+}
+
+#nome-plano, #descriçao-plano, #botao-plano{
+	position: absolute;
+}
+
+#sec-services .row .col-md-4 div h4{
+		font-size: 30px;
+		padding:20px 0;
+		color: black;
+}
+
+#sec-services .row .col-md-4 div p{
+	padding: 0 10px;
+	color: white;
+	text-align: center;
+}
+
+#sec-services .row .col-md-4 div button{
+	
+	text-transform: uppercase;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	background-color: blue;
+	transition: all 0.5s;
+	border-radius: 5px;
+}
+
+#sec-services .row .col-md-4 div button a{
+	color: white;
+} 
+
+#sec-services .row .col-md-4 div button a:hover{
+	color: blue;
+} 
+
+#sec-services .row .col-md-4 div button:hover{
+	background-color: white;
+	color: blue;
+}
+
